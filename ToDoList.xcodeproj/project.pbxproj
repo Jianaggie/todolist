@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0D42491822A45B00FC89C3 /* TDLToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D42481822A45B00FC89C3 /* TDLToDoItem.m */; };
 		7E741E7B181F6C5500098248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E741E7A181F6C5500098248 /* Foundation.framework */; };
 		7E741E7D181F6C5500098248 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E741E7C181F6C5500098248 /* CoreGraphics.framework */; };
 		7E741E7F181F6C5500098248 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E741E7E181F6C5500098248 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E0D42471822A45B00FC89C3 /* TDLToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLToDoItem.h; sourceTree = "<group>"; };
+		7E0D42481822A45B00FC89C3 /* TDLToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLToDoItem.m; sourceTree = "<group>"; };
 		7E741E77181F6C5500098248 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E741E7A181F6C5500098248 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E741E7C181F6C5500098248 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				7ED7FE8E181FFF3C00FC8EA7 /* TDLAddToDoItemViewController.m */,
 				7E741E8A181F6C5500098248 /* TDLAppDelegate.m */,
 				7EF0744F181F76D30090BB76 /* Main.storyboard */,
+				7E0D42471822A45B00FC89C3 /* TDLToDoItem.h */,
+				7E0D42481822A45B00FC89C3 /* TDLToDoItem.m */,
 				7E741E8C181F6C5500098248 /* Images.xcassets */,
 				7E741E81181F6C5500098248 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				7E741E87181F6C5500098248 /* main.m in Sources */,
 				7ED7FE8F181FFF3C00FC8EA7 /* TDLAddToDoItemViewController.m in Sources */,
 				7E741E8B181F6C5500098248 /* TDLAppDelegate.m in Sources */,
+				7E0D42491822A45B00FC89C3 /* TDLToDoItem.m in Sources */,
 				7ED7FE921820014F00FC8EA7 /* TDLToDoListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

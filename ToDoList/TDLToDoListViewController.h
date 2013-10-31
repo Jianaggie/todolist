@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TDLToDoListViewController : UITableViewController
-
+@property NSMutableArray *toDoItems;
 @end
